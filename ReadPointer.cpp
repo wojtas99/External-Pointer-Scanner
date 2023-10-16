@@ -3,7 +3,7 @@
 DWORD ReadPointer(DWORD address, std::vector<DWORD> offsets)
 {
     DWORD procID;
-    HWND hWND = FindWindow(NULL, L"Nostale");
+    HWND hWND = FindWindow(NULL, L"xxxxxxx"); // Window Name
     if (!hWND)
     {
         exit(-1);
